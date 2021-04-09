@@ -1,0 +1,14 @@
+<div align="center">
+    <h2>
+        Primer 2
+    </h2>
+    <hr>
+    <button type="button" (click)="makeReq()">
+        Posalji zahtev
+    </button>
+    <hr>
+    <div *ngIf="loading">Loading...</div>
+    <pre>
+        {{data | json}}
+    </pre>
+</div>
